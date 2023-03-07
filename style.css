@@ -1,0 +1,85 @@
+title{
+    background-image: url(livro.png);
+}
+
+body{
+    font-family:Tahoma;
+    text-align: center;
+}
+
+main{
+    background-color: maroon;
+    width: 72%;
+    height: 700px;
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.c1{
+    color: whitesmoke;
+    font-style: italic;
+    border: 2px dotted mistyrose;
+}
+
+.c1:hover{
+    background-color: crimson;
+    font-size: lightpink;
+    border-color: lightpink;
+    rotate: -2deg;
+}
+
+.c2{
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.295);
+    background-image: -moz-linear-gradient();
+}
+
+
+.tab1{
+    margin: 10px 10px 10px 85px;
+}
+
+.t1{
+    border: dashed rgb(223, 73, 93);
+}
+
+.t1:hover{
+rotate: -5deg;
+border: 5px double gold;    
+}
+
+aside{
+    background-image: url(vinho.jpg);
+    background-size: 200%;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 950px;
+}
+
+.c3{
+    background-image: url(fundo.jpg);
+    color: maroon;
+    font-size: 25px;
+}
+
+.c3:hover{
+    color: indianred;
+}
+
+.ul1{
+    line-height: 35px;
+    color: LightGray;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: left;
+    list-style:image url(check.png);
+}
+
+span{
+    text-decoration: underline;
+    color: gold;
+}
